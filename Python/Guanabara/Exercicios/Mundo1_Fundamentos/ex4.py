@@ -1,0 +1,8 @@
+entrada = input('Vamos descobrir o tipo do que você digitar? Digite algo:  ')
+print(f'O tipo primitivo desse valor é {type(entrada)}')
+print(f'Só tem espaços? {entrada.isspace()}')
+print(f'Só tem letras? {entrada.isalpha()}')
+print(f'Só tem números? {entrada.isnumeric()}')
+print(f'É alfanumérico? {entrada.isalnum()}')
+print(f'Tem só letras maiúsculas? {entrada.isupper()}')
+print(f'Tem o padrão "americano"? {entrada.isascii()}')
