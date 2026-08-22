@@ -1,0 +1,22 @@
+Style: 0 - None
+       1 - Bold
+       4 - Underline 
+       7 - Negative
+
+Text: 30 - Branco 
+      31 - Vermelho 
+      32 - Verde
+      33 - Amarelo
+      34 - Azul
+      35 - Magenta
+      36 - Azul-claro esverdeado / Ciano
+      37 - Cinza
+
+Back: 40 - Branco 
+      41 - Vermelho 
+      42 - Verde
+      43 - Amarelo
+      44 - Azul
+      45 - Magenta
+      46 - Azul-claro esverdeado / Ciano
+      47 - Cinza
