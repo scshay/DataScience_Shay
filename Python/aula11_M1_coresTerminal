@@ -1,3 +1,5 @@
+Código principal: \033[m
+
 Style: 0 - None
        1 - Bold
        4 - Underline 
