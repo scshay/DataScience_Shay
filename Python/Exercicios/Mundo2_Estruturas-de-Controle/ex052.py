@@ -1,7 +1,7 @@
 n = int(input('Digite um número: '))
 
-amarelo = '\033[0;33m'
-vermelho = '\033[0;31m'
+amarelo = '\033[33m'
+vermelho = '\033[31m'
 limpa = '\033[m'
 cont = 0 
 
