@@ -11,4 +11,3 @@ while continuar == 'S':
 media = sum(numeros)/len(numeros)
 print(f'Você digitou {len(numeros)} números e a média foi {media}')
 print(f'O maior valor foi {max(numeros)} e o menor foi {min(numeros)}')
-print(numeros)
