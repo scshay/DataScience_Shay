@@ -11,7 +11,6 @@ if e.count(3) > 0:
 else: 
     print(f'O valor 3 não foi digitado em nenhuma posição')
 
-print(f'O(s) valor(es) par(es) digitado(s) foi/foram:', end='')
 p = ()   # necessário definir a variável senão bate em "NameError: name 'p' is not defined"
 for indice, item in enumerate(e):
 # Para conseguir o print final, precisamos criar uma nova tupla 'p' com apenas os valores pares.
@@ -19,4 +18,4 @@ for indice, item in enumerate(e):
 # Como a tupla é imutável, a forma correta de acrescentar um valor é 'p += (item,)', pois isso gera uma nova tupla contendo só os pares, que pode ser exibida no último print.
     if e[indice] % 2 == 0:
         p += (item,)
-        print(f' {p[indice]}', end='')
+print(f'O(s) valor(es) par(es) digitado(s) foi/foram: {p[0]} {p[1]} {p[2]} {p[3]}')
