@@ -1,3 +1,5 @@
+# Gostei mais da resolução do Guanabara porque ele cria a tupla dele desde o input do usuário; como cheguei no mesmo resultado, vou deixar guardado aqui, mas refiz o exercício no arquivo ex075.2.py
+
 a = int(input('Digite um número: '))
 b = int(input('Digite outro número: '))
 c = int(input('Digite mais um número: '))
