@@ -1,6 +1,4 @@
 programa {
-  inclua biblioteca Matematica --> mat
-
   funcao inicio() {
     inteiro posicao, item, maior, temp, vetor[10]={2,5,1,3,4,9,7,8,10,6}
     
