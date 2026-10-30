@@ -13,29 +13,27 @@ numeros = [30,4,10,45]
 
 def somarMultiplosNumeros():
     soma = np.sum(numeros)
-    return print(soma)
+    return print(f'O total dos itens da lista resulta em {soma}')
 somarMultiplosNumeros()
 
 def multiplicarMultiplosNumeros():
     multiplicação = math.prod(numeros)
-    return print(multiplicação)
+    return print(f'Já a multiplicação resulta em {multiplicação}')
 multiplicarMultiplosNumeros()
 
 inteiros = []
 def ehInteiro():
     for n in numeros:
-        if type(n) == int():
+        if type(n) == int:
             n == True 
             inteiros.append(n)
+    return print(f'Todos os números inteiros são: {inteiros}')
 ehInteiro()
-print(inteiros)
 
-# def ehPar():
-#     for n in numeros:
-#         if n % 2 == 0 and type(n) == int:
-#             return True
-#         else:
-#             return False
-# ehPar()
-
-# def ehInteiro():
+pares = []
+def ehPar():
+    for i in inteiros:
+        if i % 2 == 0:
+            pares.append(i)
+    return print(f'Os pares são: {pares}')
+ehPar()
