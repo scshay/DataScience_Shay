@@ -14,12 +14,10 @@ numeros = [30,4,10,45]
 def somarMultiplosNumeros():
     soma = np.sum(numeros)
     return print(f'O total dos itens da lista resulta em {soma}')
-somarMultiplosNumeros()
 
 def multiplicarMultiplosNumeros():
     multiplicação = math.prod(numeros)
-    return print(f'Já a multiplicação resulta em {multiplicação}')
-multiplicarMultiplosNumeros()
+    return print(f'A multiplicação resulta em {multiplicação}')
 
 inteiros = []
 def ehInteiro():
@@ -28,12 +26,39 @@ def ehInteiro():
             n == True 
             inteiros.append(n)
     return print(f'Todos os números inteiros são: {inteiros}')
-ehInteiro()
 
 pares = []
 def ehPar():
     for i in inteiros:
         if i % 2 == 0:
             pares.append(i)
-    return print(f'Os pares são: {pares}')
-ehPar()
+    return print(f'Os números pares são: {pares}')
+
+def menu():
+    print('\n1 - Soma')
+    print('2 - Multiplicação')
+    print('3 - Quais são os números inteiros')
+    print('4 - Quais são os pares')
+    print('5 - Sair da calculadora')
+    opcao = input(f'Para os seguintes números {numeros}, deseja realizar qual operação? ')
+
+    if opcao == '1':
+        somarMultiplosNumeros()
+    elif opcao == '2':
+        multiplicarMultiplosNumeros()
+    elif opcao == '3':
+        ehInteiro()
+    elif opcao == '4':
+        ehPar()
+    elif opcao == '5':
+        print('Obrigada pela visita, até mais :)')
+        return False
+    else: 
+        print('Entrada inválida! Tente novamente.')
+    
+    return True
+
+while True:
+    continuar = menu()
+    if not continuar:
+        break
